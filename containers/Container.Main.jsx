@@ -9,6 +9,7 @@ import ComponentError from '../components/Component.Error'
 import ComponentCountryList from '../components/Component.CountryList'
 import ComponentMap from '../components/Component.Map'
 import ComponentCountryInformation from '../components/Component.CountryInformation'
+import ComponentCountryPopulation from '../components/Component.CountryPopulation'
 
 // import clients
 import { fetchCountryData } from '../clients/client.countries'
@@ -65,7 +66,7 @@ function ContainerMain() {
                             />
                         </Grid>
                         {/* map */}
-                        <Grid 
+                        <Grid
                             item
                             container
                             direction="column"
@@ -77,14 +78,18 @@ function ContainerMain() {
                             />
                         </Grid>
                         <Grid item xs={6} className="world-main-container-right">
-                            {/* Country Information */ }
+                            {/* Country Information */}
                             <Grid>
                                 <ComponentCountryInformation
                                     selectedCountry={selectedCountry}
                                     countryData={countryData}
                                 />
                             </Grid>
-                            <Grid>4</Grid>
+                            <Grid>
+                                <ComponentCountryPopulation
+                                    selectedCountry={selectedCountry}
+                                />
+                            </Grid>
                         </Grid>
                     </Grid>
                 </div>
