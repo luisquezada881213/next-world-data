@@ -52,7 +52,7 @@ function showData(selectedCountry) {
             .attr("y", d => positionScale(d.year))
             .style("transform", "translate(20px, 0px)")
 
-        join.merge(newElements)
+        join.merge(newElements).transition()
             .attr("fill", "blue")
             .attr("width", d => widthScale(d.population))
             .attr("height", positionScale.bandwidth())
@@ -69,11 +69,11 @@ function showData(selectedCountry) {
         let yAxis = d3.axisLeft()
             .scale(positionScale)
 
-        xAxisBody
+        xAxisBody.transition()
             .call(xAxis)
             .style("transform", "translate(45px, 300px)")
 
-        yAxisBody
+        yAxisBody.transition()
             .call(yAxis)
             .style("transform", "translate(40px, 0px)")
 
