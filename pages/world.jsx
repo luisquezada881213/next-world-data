@@ -4,7 +4,7 @@ import Layout from '../components/Component.Layout'
 
 import ContainerMain from '../containers/Container.Main'
 
-import "../style/world.css"
+import "../style/world.scss"
 
 export default function World() {
     return (

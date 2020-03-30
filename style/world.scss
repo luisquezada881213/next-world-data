@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Baloo+Da+2&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Baloo+Da+2&display=swap");
 
 body {
     margin: 0px;
     overflow: hidden;
-    font-family: 'Baloo Da 2', cursive;
+    font-family: "Baloo Da 2", cursive;
 }
 
 .world-main-container {
@@ -11,8 +11,10 @@ body {
     width: 100vw;
 }
 
-.world-main-container>div {
-    height: 100vh;
+.world-main-container {
+    div {
+        height: 100vh;
+    }
 }
 
 .world-main-container-right div:nth-child(1) {
@@ -24,11 +26,8 @@ body {
 .world-main-container-right div:nth-child(2) {
     min-height: 50vh;
     max-height: 50vh;
-}
-
-.world-flag {
-    width: 90%;
-    cursor: pointer;
+    display: flex;
+    justify-content: center;
 }
 
 #map-container {
@@ -38,9 +37,14 @@ body {
 
 .world-main-container-flags {
     height: 100%;
+    .world-flag {
+        width: 90%;
+        cursor: pointer;
+        border: solid 1px darkgrey
+    }
 }
 
-#country-population-body{
+#country-population-body {
     height: 500px;
-    width: 650px;
+    width: 550px;
 }
