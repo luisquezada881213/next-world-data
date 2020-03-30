@@ -28,7 +28,7 @@ export default function World() {
                     }
 
                     .world-main-container-right div:nth-child(1) {
-                        height: 60%;
+                        height: 40%;
                     }
 
                     .world-main-container-right div:nth-child(2) {
@@ -47,6 +47,11 @@ export default function World() {
 
                     .world-main-container-flags {
                         height: 100%;
+                    }
+
+                    #country-population-body{
+                        height: 500px;
+                        width: 650px;
                     }
       `}</style>
             </Layout>
