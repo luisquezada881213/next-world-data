@@ -27,8 +27,13 @@ body {
     min-height: 55vh;
     max-height: 55vh;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     padding-top: 10px;
+    div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 #map-container {
@@ -41,11 +46,15 @@ body {
     .world-flag {
         width: 90%;
         cursor: pointer;
-        border: solid 1px darkgrey
+        border: solid 1px darkgrey;
+        opacity: .7;
+    }
+    .selected-flag {
+        opacity: 1;
     }
 }
 
 #country-population-body {
-    height: 500px;
-    width: 550px;
+    height: 400px;
+    width: 500px;
 }

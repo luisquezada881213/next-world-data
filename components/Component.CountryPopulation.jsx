@@ -36,7 +36,7 @@ function showData(selectedCountry) {
         // console.log(domain)
 
         let positionScale = d3.scaleBand()
-            .range([0, 300])
+            .range([0, 200])
             .domain(domain)
             .padding(0.3)
 
@@ -71,7 +71,7 @@ function showData(selectedCountry) {
 
         xAxisBody.transition()
             .call(xAxis)
-            .style("transform", "translate(45px, 300px)")
+            .style("transform", "translate(45px, 200px)")
 
         yAxisBody.transition()
             .call(yAxis)

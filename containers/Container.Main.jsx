@@ -63,6 +63,7 @@ function ContainerMain() {
                             <ComponentCountryList
                                 countryData={countryData}
                                 setSelectedCountry={setSelectedCountry}
+                                selectedCountry={selectedCountry}
                             />
                         </Grid>
                         {/* map */}
@@ -86,9 +87,12 @@ function ContainerMain() {
                                 />
                             </Grid>
                             <Grid>
-                                <ComponentCountryPopulation
-                                    selectedCountry={selectedCountry}
-                                />
+                                <h3>Population projection</h3>
+                                <div>
+                                    <ComponentCountryPopulation
+                                        selectedCountry={selectedCountry}
+                                    />
+                                </div>
                             </Grid>
                         </Grid>
                     </Grid>
