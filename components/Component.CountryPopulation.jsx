@@ -46,14 +46,14 @@ function showData(selectedCountry) {
 
         let newElements = join.enter()
             .append("rect")
-            .attr("fill", "blue")
+            .attr("fill", "#6A5ACD")
             .attr("width", d => widthScale(d.population))
             .attr("height", positionScale.bandwidth())
             .attr("y", d => positionScale(d.year))
             .style("transform", "translate(20px, 0px)")
 
         join.merge(newElements).transition()
-            .attr("fill", "blue")
+            .attr("fill", "#6A5ACD")
             .attr("width", d => widthScale(d.population))
             .attr("height", positionScale.bandwidth())
             .attr("y", d => positionScale(d.year))

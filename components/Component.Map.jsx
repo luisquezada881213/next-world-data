@@ -22,7 +22,7 @@ function showData(selectedCountry) {
         .attr("stroke", "black")
         .attr("className", "map-country")
         .attr("id", d => 'map-country-' + d.properties.name.split(' ').join(''))
-        .attr('fill', 'white')
+        .attr('fill', '#008000')
 
     if (selectedCountry) {
 
@@ -34,9 +34,9 @@ function showData(selectedCountry) {
         latitude = +latitude.substring(0, latitude.indexOf('.'))
         var feature = body.selectAll("path");
         projection.rotate([(longitude * -1), (latitude * -1)]);
-        feature.attr("d", path).attr('fill', 'white');
+        feature.attr("d", path).attr('fill', '#008000');
 
-        d3.select(`#map-country-${selectedCountry.name.split(' ').join('')}`).attr('fill', 'red')
+        d3.select(`#map-country-${selectedCountry.name.split(' ').join('')}`).attr('fill', '#B22222')
 
     }
 
@@ -51,6 +51,7 @@ function ComponentMap({ selectedCountry }) {
     return (
         <React.Fragment>
             <svg id="map-container">
+                <circle cx="235" cy="290" r="230" className="world-ocean" />
                 <g className="map-body" transform="translate(0,0)"></g>
             </svg>
         </React.Fragment>
