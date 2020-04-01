@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import { useSelector } from 'react-redux' 
 
 // import material ui components
 import Grid from '@material-ui/core/Grid';
@@ -14,6 +15,9 @@ import ComponentCountryPopulation from '../components/Component.CountryPopulatio
 // import clients
 import { fetchCountryData } from '../clients/client.countries'
 
+// import redux actions
+import { reduxFetchWorldData } from '../redux/worldDataActions'
+
 function ContainerMain() {
 
     const [countryData, setCountryData] = useState({
@@ -22,23 +26,14 @@ function ContainerMain() {
     })
 
     const [selectedCountry, setSelectedCountry] = useState(null)
+    const data = useSelector(state => state.worldData)
 
     /* ComponentDidMount */
     useEffect(() => {
-        fetchCountryData().then(response => {
-            setCountryData({
-                data: response.data,
-                status: 'success',
-            })
-        }).catch(error => {
-            setCountryData({
-                data: null,
-                status: 'error'
-            })
-        })
+        reduxFetchWorldData()
     }, []);
 
-    switch (countryData.status) {
+    switch (data.status) {
         case 'loading':
             return <ComponentLoading />
         case 'success':
@@ -61,7 +56,7 @@ function ContainerMain() {
                             className="world-main-container-flags"
                         >
                             <ComponentCountryList
-                                countryData={countryData}
+                                countryData={data}
                                 setSelectedCountry={setSelectedCountry}
                                 selectedCountry={selectedCountry}
                             />
@@ -83,7 +78,7 @@ function ContainerMain() {
                             <Grid>
                                 <ComponentCountryInformation
                                     selectedCountry={selectedCountry}
-                                    countryData={countryData}
+                                    countryData={data}
                                 />
                             </Grid>
                             <Grid>
