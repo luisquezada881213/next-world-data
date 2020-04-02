@@ -88,6 +88,7 @@ function ComponentCountryPopulation({ selectedCountry }) {
 
     return (
         <React.Fragment>
+            {selectedCountry ? <h3>Population projection</h3> : <></>}
             <svg id="country-population-body">
                 <g id="country-population-xAxis"></g>
                 <g id="country-population-yAxis"></g>

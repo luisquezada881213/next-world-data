@@ -75,7 +75,6 @@ function ContainerMain() {
                                 />
                             </Grid>
                             <Grid>
-                                <h3>Population projection</h3>
                                 <div>
                                     <ComponentCountryPopulation
                                         selectedCountry={selectedCountry}
