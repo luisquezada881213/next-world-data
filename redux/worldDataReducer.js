@@ -1,4 +1,4 @@
-const reducer = (state = {data: {}, status: 'loading'}, action) => {
+const reducer = (state = {data: {}, status: 'loading', selectedCountry:null}, action) => {
     switch (action.type) {
         case "WORLD_DATA_LOADING": {
             state = {...state, data: {}, status: 'loading'}
@@ -10,6 +10,10 @@ const reducer = (state = {data: {}, status: 'loading'}, action) => {
         } 
         case "WORLD_DATA_ERROR": {
             state = {...state, data: {}, status: 'error'}
+            break;
+        }
+        case "WORLD_DATA_SET_COUNTRY": {
+            state = {...state, status: 'success', selectedCountry:action.payload}
             break;
         }
         default:

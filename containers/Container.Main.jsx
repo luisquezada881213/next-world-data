@@ -12,21 +12,14 @@ import ComponentMap from '../components/Component.Map'
 import ComponentCountryInformation from '../components/Component.CountryInformation'
 import ComponentCountryPopulation from '../components/Component.CountryPopulation'
 
-// import clients
-import { fetchCountryData } from '../clients/client.countries'
-
 // import redux actions
-import { reduxFetchWorldData } from '../redux/worldDataActions'
+import { reduxFetchWorldData, reduxSetCountry } from '../redux/worldDataActions'
 
 function ContainerMain() {
 
-    const [countryData, setCountryData] = useState({
-        data: {},
-        status: 'loading',
-    })
-
-    const [selectedCountry, setSelectedCountry] = useState(null)
+    // const [selectedCountry, setSelectedCountry] = useState(null)
     const data = useSelector(state => state.worldData)
+    const selectedCountry = useSelector(state => state.worldData.selectedCountry)
 
     /* ComponentDidMount */
     useEffect(() => {
@@ -57,7 +50,7 @@ function ContainerMain() {
                         >
                             <ComponentCountryList
                                 countryData={data}
-                                setSelectedCountry={setSelectedCountry}
+                                setSelectedCountry={reduxSetCountry}
                                 selectedCountry={selectedCountry}
                             />
                         </Grid>

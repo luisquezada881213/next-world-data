@@ -13,3 +13,7 @@ export const reduxFetchWorldData = () => {
         })
     })
 }
+
+export const reduxSetCountry = (country) => {
+    store.dispatch({type:"WORLD_DATA_SET_COUNTRY", payload:country})
+}
