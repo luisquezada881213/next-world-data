@@ -1,6 +1,7 @@
 import Head from 'next/head';
 
 import Layout from '../components/layouts/Main'
+import Particles from '../components/layouts/Particles'
 
 import ContainerMain from '../containers/Container.Main'
 
@@ -12,9 +13,11 @@ export default function World() {
             <Head>
                 <title>World</title>
             </Head>
-            <Layout>
-                <ContainerMain />
-            </Layout>
+            <Particles>
+                <Layout>
+                    <ContainerMain />
+                </Layout>
+            </Particles>
         </div>
     )
 }

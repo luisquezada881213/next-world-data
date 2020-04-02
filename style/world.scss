@@ -4,7 +4,7 @@ body {
     margin: 0px;
     overflow: hidden;
     font-family: "Baloo Da 2", cursive;
-    background-color: rgb(32, 32, 32);
+    background-color: #180242;
     color: white;
 }
 
@@ -50,7 +50,7 @@ body {
         width: 90%;
         cursor: pointer;
         border: solid 1px darkgrey;
-        opacity: .5;
+        opacity: 0.5;
     }
     .selected-flag {
         opacity: 1;
@@ -63,9 +63,18 @@ body {
 }
 
 .world-ocean {
-    fill: #285d8f
+    fill: #285d8f;
 }
 
 .map-country {
     fill: orange;
+}
+
+#particles-js {
+    div {
+        canvas {
+            position: absolute;
+            z-index: -1;
+        }
+    }
 }
