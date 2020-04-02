@@ -3,11 +3,11 @@ import Head from 'next/head';
 import Layout from '../components/layouts/Main'
 import Particles from '../components/layouts/Particles'
 
-import ContainerMain from '../containers/Container.Main'
+import World from '../containers/World'
 
 import "../style/world.scss"
 
-export default function World() {
+export default function Page() {
     return (
         <div>
             <Head>
@@ -15,7 +15,7 @@ export default function World() {
             </Head>
             <Particles>
                 <Layout>
-                    <ContainerMain />
+                    <World />
                 </Layout>
             </Particles>
         </div>

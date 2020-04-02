@@ -5,12 +5,12 @@ import { useSelector } from 'react-redux'
 import Grid from '@material-ui/core/Grid';
 
 // import components
-import ComponentLoading from '../components/Component.Loading'
-import ComponentError from '../components/Component.Error'
-import ComponentCountryList from '../components/Component.CountryList'
-import ComponentMap from '../components/Component.Map'
-import ComponentCountryInformation from '../components/Component.CountryInformation'
-import ComponentCountryPopulation from '../components/Component.CountryPopulation'
+import ComponentLoading from '../components/world/Loading'
+import ComponentError from '../components/world/Error'
+import ComponentCountryList from '../components/world/CountryList'
+import ComponentMap from '../components/world/Map'
+import ComponentCountryInformation from '../components/world/CountryInformation'
+import ComponentCountryPopulation from '../components/world/CountryPopulation'
 
 // import redux actions
 import { reduxFetchWorldData, reduxSetCountry } from '../redux/worldDataActions'

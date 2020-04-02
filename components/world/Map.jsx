@@ -2,8 +2,8 @@ import React, { useEffect } from 'react'
 import * as d3 from 'd3'
 
 // import geo json
-import mapInfo from '../data/data.countries.geo.json'
-import mapLatlng from '../data/data.countries.latlng.json'
+import mapInfo from '../../data/data.countries.geo.json'
+import mapLatlng from '../../data/data.countries.latlng.json'
 
 function showData(selectedCountry) {
 
