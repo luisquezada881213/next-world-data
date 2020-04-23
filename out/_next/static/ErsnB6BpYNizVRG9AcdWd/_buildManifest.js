@@ -1,1 +1,0 @@
-self.__BUILD_MANIFEST = {"/world":["static\u002Fcss\u002Fstyles.c59991a0.chunk.css","static\u002Fchunks\u002Fstyles.5e717c6855545d8f9093.js"]};self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB()
