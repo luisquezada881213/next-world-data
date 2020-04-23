@@ -1,15 +1,21 @@
 import { fetchCountryData } from '../../clients/api/client.api.countries'
 
-export default (req, res) => {
-    fetchCountryData().then(data => {
-        res.json({
+export default async (req, res) => {
+
+    let data
+    
+    try {
+        data = await fetchCountryData()
+        data = {
             data: data.data.countries,
             status: 'success',
-        })
-    }).catch(error => {
-        res.json({
+        }
+    } catch (error) {
+        data = {
             data: null,
             status: 'error',
-        })
-    })
+        }
+    }
+
+    res.send(data)
 };
