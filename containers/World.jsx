@@ -88,7 +88,7 @@ function ContainerMain() {
         case 'error':
             return <ComponentError />
         default:
-            return <ComponentError />
+            return <></>
     }
 }
 

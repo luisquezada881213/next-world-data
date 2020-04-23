@@ -1,4 +1,4 @@
-const reducer = (state = {data: {}, status: 'loading', selectedCountry:null}, action) => {
+const reducer = (state = {data: {}, status: 'loading', selectedCountry: null}, action) => {
     switch (action.type) {
         case "WORLD_DATA_LOADING": {
             state = {...state, data: {}, status: 'loading'}
