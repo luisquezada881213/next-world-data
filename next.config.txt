@@ -4,7 +4,8 @@ const isProd = process.env.NODE_ENV === 'production'
 
 module.exports = withSass({
     env: {
-        REACT_APP_API_COUNTRIES: 'https://api.myjson.com/bins/ldij8',
+        REACT_APP_NAME: '',
+        NAME: ''
     },
-    assetPrefix: isProd ? 'https://luisquezada881213.github.io/world-data/' : '',
+    assetPrefix: isProd ? 'your url' : '',
 })
