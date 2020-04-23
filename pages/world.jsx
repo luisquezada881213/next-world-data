@@ -5,8 +5,6 @@ import Particles from '../components/layouts/Particles'
 
 import World from '../containers/World'
 
-import "../style/world.scss"
-
 export default function Page() {
     return (
         <div>
