@@ -34,7 +34,7 @@ export default async (req, res) => {
     var ip = req.headers['x-real-ip'] || req.connection.remoteAddress;
     console.log(ip)
 
-    await runMiddleware(req, res, helmet())
+    // await runMiddleware(req, res, helmet())
     await runMiddleware(req, res, ipfilter(ips, { mode: 'allow' }))
     await runMiddleware(req, res, limiter)
 
