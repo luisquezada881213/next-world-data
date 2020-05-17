@@ -40,7 +40,7 @@ function ContainerMain() {
                                 countryData={data}
                             />
                         </Grid>
-                        <Grid item container xs={12} sm={12} md={12} lg={4} direction='column' alignItems='center' justify='center' className='world-main-container-left'>
+                        <Grid item container xs={12} sm={12} md={12} lg={4} direction='column' alignItems='center' justify='center' className='world-main-container-center'>
                             <ComponentMap
                                 selectedCountry={selectedCountry}
                             />

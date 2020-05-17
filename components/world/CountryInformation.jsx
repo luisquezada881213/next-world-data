@@ -37,8 +37,8 @@ function ComponentCountryInformation({ countryData, selectedCountry }) {
         case 'success':
             return (
                 <>
-                    <h1>{ information.data.name }</h1>
-            <p>{ information.data.information }</p>
+                    <h1>{information.data.name}</h1>
+                    <p>{information.data.information}</p>
                 </>
             )
         case 'error':
