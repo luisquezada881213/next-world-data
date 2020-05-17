@@ -2,7 +2,10 @@ import React from 'react'
 
 function ComponentLoading () {
     return (
-        <h1>Loading...</h1>
+        <div className='loading-container'>
+            <img src={'/logo.png'} alt='logo'/>
+            <h4>loading</h4>
+        </div>
     )
 }
 

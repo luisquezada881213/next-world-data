@@ -55,3 +55,14 @@ body {
     height:220px;
     margin-bottom: 10px;
 }
+
+.loading-container{
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img{
+        height:200px
+    }
+}
