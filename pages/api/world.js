@@ -1,8 +1,9 @@
-import { fetchCountryData } from '../../clients/api/client.api.countries'
-
 const helmet = require('helmet')
 const ipfilter = require('express-ipfilter').IpFilter
 const rateLimit = require("express-rate-limit");
+
+// JSON data
+import JSON from './json/world.json'
 
 // Whitelist the following IPs
 const ips = ['::ffff:127.0.0.1', '::1']
@@ -32,26 +33,8 @@ function runMiddleware(req, res, fn) {
 export default async (req, res) => {
 
     var ip = req.headers['x-real-ip'] || req.connection.remoteAddress;
-    console.log('welcome')
-
     await runMiddleware(req, res, helmet())
     // await runMiddleware(req, res, ipfilter(ips, { mode: 'allow' }))
     await runMiddleware(req, res, limiter)
-
-    let data
-
-    try {
-        data = await fetchCountryData()
-        data = {
-            data: data.data.countries,
-            status: 'success',
-        }
-    } catch (error) {
-        data = {
-            data: null,
-            status: 'error',
-        }
-    }
-
-    res.send(data)
+    res.send(JSON)
 };

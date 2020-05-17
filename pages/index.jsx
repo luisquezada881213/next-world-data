@@ -1,9 +1,21 @@
-import Layout from '../components/layouts/Main'
+import Head from 'next/head';
 
-export default function Index() {
+import Layout from '../components/layouts/Main'
+import Particles from '../components/layouts/Particles'
+
+import World from '../containers/World'
+
+export default function Page() {
     return (
-        <Layout>
-            <h1>Welcome to World Data</h1>
-        </Layout>
+        <div>
+            <Head>
+                <title>World</title>
+            </Head>
+            <Particles>
+                <Layout>
+                    <World />
+                </Layout>
+            </Particles>
+        </div>
     )
 }

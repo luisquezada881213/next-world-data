@@ -1,0 +1,175 @@
+{
+    "data": [
+        {
+            "name": "China",
+            "population": {
+                "2020": "1,397,026",
+                "2025": "1,410,807",
+                "2030": "1,419,019",
+                "2035": "1,424,558",
+                "2040": "1,428,383",
+                "2045": "1,433,211",
+                "2050": "1,437,978",
+                "Country": "China"
+            },
+            "information": "China (Chinese: 中国; pinyin: Zhōngguó), officially the People's Republic of China (PRC), is a country in East Asia and is the world's most populous country, with a population of around 1.428 billion in 2017. Covering approximately 9,600,000 square kilometers (3,700,000 sq mi), it is the third largest country by area.[j] Governed by the Communist Party of China, the state exercises jurisdiction over 22 provinces,[k] five autonomous regions, four direct-controlled municipalities (Beijing, Tianjin, Shanghai, and Chongqing), and the special administrative regions of Hong Kong and Macau. ",
+            "flag": {
+                "url": "https://media.graphcms.com/hyUAZNS3TkmHzn0niGa1"
+            }
+        },
+        {
+            "name": "India",
+            "population": {
+                "2020": "1,326,094",
+                "2025": "1,396,047",
+                "2030": "1,460,744",
+                "2035": "1,519,491",
+                "2040": "1,571,716",
+                "2045": "1,617,238",
+                "2050": "1,656,554",
+                "Country": "India"
+            },
+            "information": "India (Hindi: Bhārat), officially the Republic of India (Hindi: Bhārat Gaṇarājya),[20] is a country in South Asia. It is the seventh-largest country by area, the second-most populous country, and the most populous democracy in the world. Bounded by the Indian Ocean on the south, the Arabian Sea on the southwest, and the Bay of Bengal on the southeast, it shares land borders with Pakistan to the west;[e] China, Nepal, and Bhutan to the north; and Bangladesh and Myanmar to the east. In the Indian Ocean, India is in the vicinity of Sri Lanka and the Maldives; its Andaman and Nicobar Islands share a maritime border with Thailand and Indonesia. ",
+            "flag": {
+                "url": "https://media.graphcms.com/ATC89ZJbT5WgUTALEVxs"
+            }
+        },
+        {
+            "name": "United States of America",
+            "population": {
+                "2020": "334,504",
+                "2025": "347,335",
+                "2030": "359,403",
+                "2035": "370,339",
+                "2040": "380,220",
+                "2045": "389,395",
+                "2050": "398,329",
+                "Country": "United States"
+            },
+            "information": "The United States of America (USA), commonly known as the United States (U.S. or US) or America, is a country consisting of 50 states, a federal district, five major self-governing territories, and various possessions.[g] At 3.8 million square miles (9.8 million km2), it is the world's third or fourth-largest country by total area[b] and is slightly smaller than the entire continent of Europe. Most of the country is located in central North America between Canada and Mexico. With an estimated population of over 328 million, the U.S. is the third most populous country in the world. The capital is Washington, D.C., and the most populous city is New York City. ",
+            "flag": {
+                "url": "https://media.graphcms.com/akKbn2eNSRCu9TSzTIHu"
+            }
+        },
+        {
+            "name": "Indonesia",
+            "population": {
+                "2020": "279,080",
+                "2025": "288,429",
+                "2030": "296,450",
+                "2035": "305,653",
+                "2040": "314,085",
+                "2045": "321,524",
+                "2050": "327,282",
+                "Country": "Indonesia"
+            },
+            "information": "Indonesia, officially the Republic of Indonesia (Indonesian: Republik Indonesia [reˈpublik ɪndoˈnesia] (About this soundlisten)),[a] is a transcontinental country in Southeast Asia and Oceania, between the Indian and Pacific oceans. It is the world's largest island country, with more than seventeen thousand islands, and at 1,904,569 square kilometres (735,358 square miles), the 14th largest by land area and 7th in the combined sea and land area.[12] With over 267 million people, it is the world's 4th most populous country as well as the most populous Muslim-majority country. Java, the world's most populous island, is home to more than half of the country's population. The country's capital, Jakarta, is the second-most populous urban area in the world. ",
+            "flag": {
+                "url": "https://media.graphcms.com/8CBOf7e0Q86jdx8baRhJ"
+            }
+        },
+        {
+            "name": "Pakistan",
+            "population": {
+                "2020": "213,720",
+                "2025": "228,386",
+                "2030": "242,862",
+                "2035": "256,594",
+                "2040": "269,152",
+                "2045": "280,553",
+                "2050": "290,848",
+                "Country": "Pakistan"
+            },
+            "information": "Pakistan,[b] officially the Islamic Republic of Pakistan,[c] is a country in South Asia. It is the world's fifth-most populous country with a population exceeding 207.8 million. In area, it is the 33rd-largest country, spanning 881,913 square kilometres (340,509 square miles). Pakistan has a 1,046-kilometre (650-mile) coastline along the Arabian Sea and Gulf of Oman in the south and is bordered by India to the east, Afghanistan to the west, Iran to the southwest, and China in the northeast. It is separated narrowly from Tajikistan by Afghanistan's Wakhan Corridor in the northwest, and also shares a maritime border with Oman. ",
+            "flag": {
+                "url": "https://media.graphcms.com/anJ9fPuHS4KXaEqEVCBY"
+            }
+        },
+        {
+            "name": "Brazil",
+            "population": {
+                "2020": "216,016",
+                "2025": "223,028",
+                "2030": "228,720",
+                "2035": "233,068",
+                "2040": "236,077",
+                "2045": "237,826",
+                "2050": "238,390",
+                "Country": "Brazil"
+            },
+            "information": "Brazil (Portuguese: Brasil; Portuguese pronunciation: [bɾaˈziw]),[nt 1] officially the Federative Republic of Brazil (Portuguese: República Federativa do Brasil, About this soundlisten (help·info)),[9] is the largest country in both South America and Latin America. At 8.5 million square kilometers (3.2 million square miles)[10] and with over 211 million people, Brazil is the world's fifth-largest country by area and the sixth most populous. Its capital is Brasília, and its most populous city is São Paulo. The federation is composed of the union of the 26 states, the Federal District, and the 5,570 municipalities. It is the largest country to have Portuguese as an official language and the only one in the Americas;[11][12] it is also one of the most multicultural and ethnically diverse nations, due to over a century of mass immigration from around the world.[13] ",
+            "flag": {
+                "url": "https://media.graphcms.com/9fSCJScKStekDDFFXzhX"
+            }
+        },
+        {
+            "name": "Nigeria",
+            "population": {
+                "2020": "204,950",
+                "2025": "241,581",
+                "2030": "285,894",
+                "2035": "301,935",
+                "2040": "322,187",
+                "2045": "364,465",
+                "2050": "402,224",
+                "Country": "Nigeria"
+            },
+            "information": "Nigeria (/naɪˈdʒɪəriə/ (About this soundlisten)), officially the Federal Republic of Nigeria, is a country in West Africa, bordering Niger in the north, Chad in the northeast, Cameroon in the east, and Benin in the west. Its coast in the south is located on the Gulf of Guinea in the Atlantic Ocean. The federation comprises 36 states and 1 Federal Capital Territory, where the capital, Abuja, is located. The constitution defines Nigeria as a democratic secular state.,[6] Nigeria has been home to a number of ancient and indigenous kingdoms and states over the millennia. The modern state originated from British colonial rule beginning in the 19th century, and took its present territorial shape with the merging of the Southern Nigeria Protectorate and Northern Nigeria Protectorate in 1914 by Lord Fredrick Lugard. The British set up administrative and legal structures while practicing indirect rule through traditional chiefdoms, Nigeria became a formally independent federation in 1960. It experienced a civil war from 1967 to 1970. It thereafter alternated between democratically elected civilian governments and military dictatorships until it achieved a stable democracy in 1999, with the 2011 presidential election considered the first to be reasonably free and fair.[7] ",
+            "flag": {
+                "url": "https://media.graphcms.com/twvSOCLRb2DaG11TYT5v"
+            }
+        },
+        {
+            "name": "Bangladesh",
+            "population": {
+                "2020": "169,778",
+                "2025": "178,312",
+                "2030": "185,605",
+                "2035": "191,616",
+                "2040": "196,224",
+                "2045": "199,442",
+                "2050": "201,249",
+                "Country": "Bangladesh"
+            },
+            "information": "Bangladesh (Bengali: বাংলাদেশ) pronounced /ˌbæŋlɑːˈdɛʃ/ or /ˌbɑː-/ (BANG-lah-DESH or BAHNG-); Bengali: [ˈbaŋladeʃ] (About this soundlisten); literally meaning The country of Bengal; and officially called the People's Republic of Bangladesh (গণপ্রজাতন্ত্রী বাংলাদেশ Gônoprojatontri Bangladesh), is a country in South Asia. It is the world's 8th-most populous country with nearly 163 million people,[6][7] and is the 92nd-largest country in land area, spanning 147,570 square kilometres (56,980 sq mi), making it one of the most densely-populated countries in the world. Bangladesh shares land borders with India to the west, north, and east, Myanmar to the southeast, and the Bay of Bengal to the south. It is narrowly separated from Nepal and Bhutan by India's Siliguri Corridor in the north and from China by the Indian state of Sikkim in the northeast. Dhaka, the capital and largest city, is the nation's economic, political and cultural hub. Chittagong, the largest sea port, is the second largest city. The dominant geographic feature is the Ganges delta, which empties into the Bay of Bengal the combined waters of several river systems, including the Brahmaputra and the Ganges, with numerous criss-crossing rivers and inland waterways. Highlands with evergreen forests cover the northeastern and southeastern regions. The seacoast features the longest natural sea beach and most of the world's largest mangrove forest. The country's biodiversity includes a vast array of plants and wildlife, including the endangered Bengal tiger, the national animal. ",
+            "flag": {
+                "url": "https://media.graphcms.com/lw6gRhBMSLS2F1AttjHD"
+            }
+        },
+        {
+            "name": "Russia",
+            "population": {
+                "2020": "145,723",
+                "2025": "141,120",
+                "2030": "138,215",
+                "2035": "136,313",
+                "2040": "134,496",
+                "2045": "132,432",
+                "2050": "129,909",
+                "Country": "Russia"
+            },
+            "information": "Russia or the Russian Federation,[13][d] is a European country located in Eastern Europe with a vast expanse of territory that stretches across Northern Asia.[14] At 17,125,200 square kilometres (6,612,100 sq mi),[15] it is by far the largest country in the world by area, covering more than one-eighth of the Earth's inhabited land area,[16][17] spanning eleven time zones, and bordering 16 sovereign nations. The territory of Russia extends from the Baltic Sea in the west to the Pacific Ocean in the east, and from the Arctic Ocean in the north to the Black Sea and the Caucasus in the south. With 146.7 million inhabitants living in the country's 85 federal subjects as of 2020,[8] Russia is the most populous nation in Europe and the ninth-most populous nation in the world. Russia's capital and largest city is Moscow; other major urban areas include Saint Petersburg, Novosibirsk, Yekaterinburg, Nizhny Novgorod, Kazan and Chelyabinsk. ",
+            "flag": {
+                "url": "https://media.graphcms.com/UBi49J8aTaeEp2grPWK2"
+            }
+        },
+        {
+            "name": "Mexico",
+            "population": {
+                "2020": "128,650",
+                "2025": "130,000",
+                "2030": "140,063",
+                "2035": "144,287",
+                "2040": "147,495",
+                "2045": "149,612",
+                "2050": "150,568",
+                "Country": "Mexico"
+            },
+            "information": "Mexico (Spanish: México [ˈmexiko] (About this soundlisten); Nahuatl languages: Mēxihco), officially the United Mexican States (UMS; Spanish: Estados Unidos Mexicanos, EUM[10][11][12][13] [esˈtaðos uˈniðoz mexiˈkanos] (About this soundlisten), lit. Mexican United States), is a country in the southern portion of North America. It is bordered to the north by the United States; to the south and west by the Pacific Ocean; to the southeast by Guatemala, Belize, and the Caribbean Sea; and to the east by the Gulf of Mexico.[14] Covering almost 2,000,000 square kilometers (770,000 sq mi),[13] the nation is the fifth largest country in the Americas by total area and the 13th largest independent state in the world. With an estimated population of over 129 million people,[15] Mexico is the tenth most populous country and the most populous Spanish-speaking country in the world, while being the second most populous nation in Latin America after Brazil.[15] Mexico is a federation comprising 31 states plus Mexico City (CDMX),[16] which is the capital city and its most populous city. Other metropolises in the country include Guadalajara, Monterrey, Puebla, Toluca, Tijuana, and León.[17] ",
+            "flag": {
+                "url": "https://media.graphcms.com/XdPsh1EdT426slyl0w0E"
+            }
+        }
+    ],
+    "status": "success"
+}
