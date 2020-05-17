@@ -28,7 +28,7 @@ function showData(selectedCountry) {
         // console.log(max)
 
         let widthScale = d3.scaleLinear()
-            .range([0, 450])
+            .range([0, 330])
             .domain([0, max])
 
         let domain = normPopData.map(d => d.year)
@@ -88,7 +88,7 @@ function ComponentCountryPopulation({ selectedCountry }) {
 
     return (
         <>
-            {selectedCountry ? <h3>Population projection</h3> : <></>}
+            <h3>Population projection</h3>
             <svg id="country-population-body">
                 <g id="country-population-xAxis"></g>
                 <g id="country-population-yAxis"></g>

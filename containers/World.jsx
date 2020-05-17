@@ -33,17 +33,19 @@ function ContainerMain() {
         case 'success':
             return (
                 <div>
-                    <Grid container className='world-main-container'>
-                        <Grid item container xs={12} lg={6} direction='column' alignItems='center' justify='center' className='world-main-container-left'>
-                            <ComponentMap
-                                selectedCountry={selectedCountry}
-                            />
-                                                        <ComponentCountryInformation
+                    <Grid container xs={12} sm={12} md={12} lg={12} className='world-main-container' direction='row' alignItems='center' justify='center'>
+                        <Grid item container xs={12} sm={12} md={12} lg={4} direction='column' alignItems='center' justify='center' className='world-main-container-left'>
+                            <ComponentCountryInformation
                                 selectedCountry={selectedCountry}
                                 countryData={data}
                             />
                         </Grid>
-                        <Grid item container xs={12} lg={6} direction='column' alignItems='center' justify='center' className='world-main-container-right'>
+                        <Grid item container xs={12} sm={12} md={12} lg={4} direction='column' alignItems='center' justify='center' className='world-main-container-left'>
+                            <ComponentMap
+                                selectedCountry={selectedCountry}
+                            />
+                        </Grid>
+                        <Grid item container xs={12} sm={12} md={12} lg={4} direction='column' alignItems='center' justify='center' className='world-main-container-right'>
                             <Grid item container direction='column' alignItems='center' justify='center'>
                                 <ComponentCountryPopulation
                                     selectedCountry={selectedCountry}

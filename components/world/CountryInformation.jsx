@@ -38,6 +38,7 @@ function ComponentCountryInformation({ countryData, selectedCountry }) {
             return (
                 <>
                     <h1>{ information.data.name }</h1>
+            <p>{ information.data.information }</p>
                 </>
             )
         case 'error':
