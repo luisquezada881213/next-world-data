@@ -5,7 +5,7 @@ function ComponentCountryList({ countryData, setSelectedCountry, selectedCountry
     let selectedFlag = selectedCountry ? selectedCountry.name : ''
 
     return(
-        <React.Fragment>
+        <>
             {Object.values(countryData.data).map(element => (
                 <img 
                     src={element.flag.url}
@@ -14,7 +14,7 @@ function ComponentCountryList({ countryData, setSelectedCountry, selectedCountry
                     onClick={()=>{setSelectedCountry(element)}}
                 />
             ))}
-        </React.Fragment>
+        </>
     )
 }
 

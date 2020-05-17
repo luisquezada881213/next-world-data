@@ -43,7 +43,7 @@ function ContainerMain() {
                             item
                             container
                             direction="column"
-                            justify="space-between"
+                            justify="space-evenly"
                             alignItems="center"
                             xs={1}
                             className="world-main-container-flags"
@@ -68,12 +68,6 @@ function ContainerMain() {
                         </Grid>
                         <Grid item xs={6} className="world-main-container-right">
                             {/* Country Information */}
-                            <Grid>
-                                <ComponentCountryInformation
-                                    selectedCountry={selectedCountry}
-                                    countryData={data}
-                                />
-                            </Grid>
                             <Grid>
                                 <div>
                                     <ComponentCountryPopulation

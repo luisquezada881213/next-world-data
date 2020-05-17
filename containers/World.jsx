@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { useSelector } from 'react-redux' 
+import { useSelector } from 'react-redux'
 
 // import material ui components
 import Grid from '@material-ui/core/Grid';
@@ -14,6 +14,7 @@ import ComponentCountryPopulation from '../components/world/CountryPopulation'
 
 // import redux actions
 import { reduxFetchWorldData, reduxSetCountry } from '../redux/worldDataActions'
+
 
 function ContainerMain() {
 
@@ -31,58 +32,31 @@ function ContainerMain() {
             return <ComponentLoading />
         case 'success':
             return (
-                <div className="world-main-container">
-                    <Grid
-                        container
-                        direction="row"
-                        justify="flex-start"
-                        alignItems="stretch"
-                    >
-                        {/* country list */}
-                        <Grid
-                            item
-                            container
-                            direction="column"
-                            justify="space-evenly"
-                            alignItems="center"
-                            xs={2}
-                            sm={2}
-                            md={2}
-                            lg={1}
-                            className="world-main-container-flags"
-                        >
-                            <ComponentCountryList
-                                countryData={data}
-                                setSelectedCountry={reduxSetCountry}
-                                selectedCountry={selectedCountry}
-                            />
-                        </Grid>
-                        {/* map */}
-                        <Grid
-                            item
-                            container
-                            direction="column"
-                            justify="space-evenly"
-                            alignItems="center"
-                            xs={1} className="world-main-container-map" item xs={5}>
+                <div>
+                    <Grid container className='world-main-container'>
+                        <Grid item container xs={12} lg={6} direction='column' alignItems='center' justify='center' className='world-main-container-left'>
                             <ComponentMap
                                 selectedCountry={selectedCountry}
                             />
+                                                        <ComponentCountryInformation
+                                selectedCountry={selectedCountry}
+                                countryData={data}
+                            />
                         </Grid>
-                        <Grid item xs={6} className="world-main-container-right">
-                            {/* Country Information */}
-                            <Grid>
-                                <ComponentCountryInformation
+                        <Grid item container xs={12} lg={6} direction='column' alignItems='center' justify='center' className='world-main-container-right'>
+                            <Grid item container direction='column' alignItems='center' justify='center'>
+                                <ComponentCountryPopulation
                                     selectedCountry={selectedCountry}
-                                    countryData={data}
                                 />
                             </Grid>
-                            <Grid>
-                                <div>
-                                    <ComponentCountryPopulation
-                                        selectedCountry={selectedCountry}
-                                    />
-                                </div>
+                            <Grid item container direction='row' alignItems='center' justify='center'>
+                                <ComponentCountryList
+                                    countryData={data}
+                                    setSelectedCountry={reduxSetCountry}
+                                    selectedCountry={selectedCountry}
+                                />
+                            </Grid>
+                            <Grid item xs={12}>
                             </Grid>
                         </Grid>
                     </Grid>
