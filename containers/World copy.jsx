@@ -43,12 +43,9 @@ function ContainerMain() {
                             item
                             container
                             direction="column"
-                            justify="space-evenly"
+                            justify="space-between"
                             alignItems="center"
-                            xs={2}
-                            sm={2}
-                            md={2}
-                            lg={1}
+                            xs={1}
                             className="world-main-container-flags"
                         >
                             <ComponentCountryList
