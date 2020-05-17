@@ -35,7 +35,7 @@ function showData(selectedCountry) {
         projection.rotate([(longitude * -1), (latitude * -1)]);
         feature.attr("d", path).attr('fill', '#008000');
 
-        d3.select(`#map-country-${selectedCountry.name.split(' ').join('')}`).attr('fill', '#B22222')
+        d3.select(`#map-country-${selectedCountry.name.split(' ').join('')}`).attr('fill', '#780206')
 
     }
 
