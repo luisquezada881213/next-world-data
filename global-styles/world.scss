@@ -4,36 +4,32 @@ body {
     margin: 0px;
     overflow: auto;
     font-family: "Baloo Da 2", cursive;
-    background-color: #180242;
+    background-color: #0e0422;
     color: white;
 }
 
 .world-main-container{
     .world-main-container-left {
-        border: solid 1px red;
         height:100vh;
     }
     .world-main-container-right {
-        border: solid 1px blue;
         height:100vh;
+        padding:10px;
+        .world-flag {
+            cursor: pointer;
+            opacity: 0.5;
+            height:64px;
+        }
+        .selected-flag {
+            opacity: 1;
+        }
     }
 }
 
 
 #map-container {
-    width:420px;
+    width:400px;
     height:420px;
-}
-
-.world-country-list-container{
-    .world-flag {
-        cursor: pointer;
-        opacity: 0.5;
-        height:64px;
-    }
-    .selected-flag {
-        opacity: 1;
-    }
 }
 
 #country-population-body {
@@ -57,5 +53,5 @@ body {
 #country-population-body{
     width:510px;
     height:220px;
-    border: solid 1px purple;
+    margin-bottom: 10px;
 }

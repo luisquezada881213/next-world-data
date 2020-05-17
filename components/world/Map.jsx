@@ -9,8 +9,8 @@ function showData(selectedCountry) {
 
     let body = d3.select(".map-body")
     let projection = d3.geoOrthographic().rotate([0, 0])
-        .scale(210)
-        .translate([205, 205])
+        .scale(200)
+        .translate([200, 200])
 
     let path = d3.geoPath()
         .projection(projection);
@@ -29,7 +29,6 @@ function showData(selectedCountry) {
         let country = mapLatlng.filter(element => element.name === selectedCountry.name)
         let longitude = country[0].longitude
         let latitude = country[0].latitude
-        console.log(latitude)
         longitude = +longitude.substring(0, longitude.indexOf('.'))
         latitude = +latitude.substring(0, latitude.indexOf('.'))
         var feature = body.selectAll("path");
@@ -51,7 +50,7 @@ function ComponentMap({ selectedCountry }) {
     return (
         <React.Fragment>
             <svg id="map-container">
-                <circle cx="205" cy="205" r="210" className="world-ocean" />
+                <circle cx="200" cy="200" r="200" className="world-ocean" />
                 <g className="map-body" transform="translate(0,0)"></g>
             </svg>
         </React.Fragment>
