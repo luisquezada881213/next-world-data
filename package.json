@@ -19,7 +19,7 @@
     "@material-ui/icons": "^4.9.1",
     "@zeit/next-css": "^1.0.1",
     "@zeit/next-sass": "^1.0.1",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "cors": "^2.8.5",
     "d3": "^5.15.0",
     "express-ipfilter": "^1.1.2",
